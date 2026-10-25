@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pocket Expense Tracker</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5c667a; --accent:#196c58; --paper:#f5f7f4; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; color:var(--ink); background:var(--paper); }
+    main { max-width:860px; margin:0 auto; padding:64px 24px; }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.8rem; }
+    h1 { font-size:clamp(2.4rem,7vw,4.2rem); line-height:1.06; margin:.35em 0; }
+    p { color:var(--muted); }
+    .card { background:white; border:1px solid #e1e8e2; border-radius:18px; padding:24px; margin-top:20px; box-shadow:0 12px 30px #1720330a; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; }
+    h2 { font-size:1.2rem; margin-top:0; }
+    code { background:#edf3ee; padding:2px 6px; border-radius:5px; }
+    footer { margin-top:32px; color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Group project · Python + pytest</div>
+    <h1>Pocket Expense Tracker</h1>
+    <p>A compact command-line project for recording transactions, checking monthly budgets, and understanding where expenses go.</p>
+    <section class="card">
+      <h2>What it does</h2>
+      <div class="grid">
+        <div><strong>Record</strong><p>Add income or expenses with a category, date, and optional note. Invalid amounts and dates are rejected.</p></div>
+        <div><strong>Budget</strong><p>Compare a category's monthly expenses with a spending limit and see the remaining amount.</p></div>
+        <div><strong>Summarize</strong><p>See monthly income, expenses, balance, and spending grouped by category.</p></div>
+      </div>
+    </section>
+    <section class="card">
+      <h2>Run it</h2>
+      <p>Install Python 3.12+, then run <code>python -m expense_tracker</code>. Install the test dependency with <code>python -m pip install -r requirements.txt</code> and run checks with <code>python -m pytest -q</code>.</p>
+      <p>Transactions stay in memory and clear when the program exits.</p>
+    </section>
+    <section class="card">
+      <h2>Team</h2>
+      <p>Group members: add the three full names and GitHub usernames before publishing.</p>
+      <p>Features are divided across transaction validation, monthly category budgets, and spending summaries.</p>
+    </section>
+    <footer>Assignment 2 · Update this page through a reviewed pull request and verify the live page afterward.</footer>
+  </main>
+</body>
+</html>
