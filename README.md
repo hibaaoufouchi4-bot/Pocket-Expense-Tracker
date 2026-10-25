@@ -10,11 +10,11 @@ Group size: 3. Chosen theme: Expense Tracker.
 
 | Member | GitHub username | Assigned feature |
 | --- | --- | --- |
-| Member A - add full name | add username | A: transaction creation and validation (`records.py`) |
-| Member B - add full name | add username | B: category budget status (`budgets.py`) |
-| Member C - add full name | add username | C: monthly summaries (`summaries.py`) |
+| Hiba Aoufouchi | `hibaaoufouchi4-bot` | A: transaction creation and validation (`records.py`) |
+| Malak Lamrhaimima | `malaklamrhaimima` | B: category budget status (`budgets.py`) |
+| Nihad ADfou | `NihadADF` | C: monthly summaries (`summaries.py`) |
 
-Replace every team placeholder before publishing. Each person should work from their own clone and account, use a feature branch, make at least two meaningful commits, add at least two meaningful tests, and open a PR.
+Each person should work from their own clone and account, use a feature branch, make at least two meaningful commits, add at least two meaningful tests, and open a PR.
 
 ## Run locally
 
